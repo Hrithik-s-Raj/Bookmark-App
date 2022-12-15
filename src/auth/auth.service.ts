@@ -61,6 +61,8 @@ export class AuthService {
     return this.signToken(user.id, user.email);
   }
 
+  //test
+
   async signToken(
     userId: number,
     email: string,
